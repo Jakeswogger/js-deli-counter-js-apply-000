@@ -1,6 +1,5 @@
 
 function takeANumber(inline){
-  linespot = 1;
   inline.push(linespot);
   linespot++;
   return 'You are number '+ linespot-1;
