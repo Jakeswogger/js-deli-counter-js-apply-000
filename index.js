@@ -1,4 +1,4 @@
-
+let linespot = 1;
 function takeANumber(inline){
   inline.push(linespot);
   linespot++;
