@@ -1,7 +1,9 @@
+
 function takeANumber(inline){
-  var linespot = inline.length+1;
+  linespot = 1;
   inline.push(linespot);
-  return 'You are number '+ linespot;
+  linespot++;
+  return 'You are number '+ linespot-1;
 }
 
 function nowServing(katzDeliLine){
