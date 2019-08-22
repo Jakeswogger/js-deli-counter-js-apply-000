@@ -1,6 +1,6 @@
 function takeANumber(inline, name){
   var linespot = inline.length+1;
-  inline.push(name);
+  inline.push(linespot);
   return 'Welcome, ' + name + '. You are number ' + linespot +  ' in line.';
 }
 
